@@ -12,7 +12,7 @@ extern crate x11;
 use libc::{c_void, c_int, c_uint, c_char, c_uchar, c_double, c_ulong};
 
 #[cfg(feature = "xlib")]
-use x11::xlib;
+pub use x11::xlib;
 
 pub mod enums;
 
